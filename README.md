@@ -31,7 +31,7 @@ Aplikasi ini dikembangkan sebagai **Tugas 2 Praktikum Mobile Programming**.
 
 1. **Clone repository ini:**
     ```sh
-    git clone <repo-url>
+    git clone https://github.com/hlmnnnxyz/sisteminvestarisgudang.git
     ```
 2. **Buka di Android Studio atau Visual Studio Code (dengan ekstensi Android).**
 3. **Build dan jalankan pada emulator atau perangkat Android.**

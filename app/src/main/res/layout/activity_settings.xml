@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFF">
+
+    <TextView
+        android:id="@+id/textSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pengaturan"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#222"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laporan &amp; Statistik"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFF"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnChangePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ganti Password"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFF"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:backgroundTint="#F44336"
+        android:textColor="#FFF"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelola Kategori Barang"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFF"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnUserManagement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manajemen User"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFF"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnAuditLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Aktivitas (Audit)"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFF"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+</LinearLayout>
